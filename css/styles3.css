@@ -70,3 +70,66 @@ li a {
     list-style-type:  none;
     color: #7C3F00;
 }
+
+/* SECTION 1 */
+.view {
+    /* border: 1px solid green; */
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.center {
+    background-color: #FFFFFF;
+    width: 54%;
+    height: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.blue {
+    transform: translate(156px, 59px);
+    position: relative;
+    color: #562B00;
+}
+
+p, strong {
+    color:#562B00;
+    font-size: 20px;
+    transform: translate(93px, 10px);
+}
+
+h3 {
+    color:#562B00;
+    font-size: 20px;
+    transform: translate(104px, 45px);
+}
+
+
+/* SECTION 2 */
+
+.image {
+    border-radius: 0 0 0 40%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 30px -30px rgba(0, 0, 0, 0.3);
+}
+
+.color {
+    border-radius: 0 0 0 40%;
+    background-color: #C5C5C5;
+    height: 600px;
+    width: 600px;
+    justify-content: flex-end;
+    display: flex;
+}
